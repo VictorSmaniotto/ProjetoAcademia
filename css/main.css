@@ -76,3 +76,89 @@ video
     font-size: 1.2rem;
     text-transform: uppercase;
 }
+
+.bgCinza
+{
+    background-color: #e0dbdb;
+}
+
+#boxAcademia
+{
+    text-align: center;
+    line-height: 1.5rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: -10px;
+    background-image: url("../img/foto-academia.jpg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-y: 50%;
+}
+
+#boxDesafie h2
+{
+    color: #FFF;
+    text-shadow: 2px 2px 2px #000;
+    font-size: 2rem;
+    margin-top: 180px;
+    text-align: right;
+}
+
+.titulo-modelo-1
+{
+    color: #ef233c;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.titulo-modelo-1::after
+{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 5px;
+    margin: 10px auto;
+    border-bottom: #999999 3px solid;
+}
+
+#bannerPlanos
+{
+    background-image: url('../img/background-planos.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 200px;
+    text-align: center;
+    color: #FFF;
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px #000;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+#bannerPlanos h2
+{
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.tituloPlanos
+{
+    background-color: #282b3f;
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 50px;
+}
+
+.planoPreco
+{
+    background-color: #aeb1b3;
+    height: 170px;
+    text-align: center;
+    font-size: 0.8rem;
+    
+}
